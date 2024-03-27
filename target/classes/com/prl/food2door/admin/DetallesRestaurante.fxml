@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #BB7D3C;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.prl.food2door.admin.DetallesRestauranteController">
+   <children>
+      <TableView fx:id="tableRest" layoutX="7.0" layoutY="7.0" prefHeight="387.0" prefWidth="586.0">
+        <columns>
+          <TableColumn fx:id="coluNombre" prefWidth="92.0" text="Nombre" />
+          <TableColumn fx:id="coluHoraApertura" prefWidth="87.0" text="Hora apertura" />
+            <TableColumn fx:id="coluHoraCierre" prefWidth="93.0" text="Hora cierre" />
+            <TableColumn fx:id="coluImagen" prefWidth="92.0" text="Imagen" />
+            <TableColumn fx:id="coluListaProd" prefWidth="221.0" text="Lista productos" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

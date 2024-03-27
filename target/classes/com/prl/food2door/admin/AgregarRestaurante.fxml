@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #BB7D3C;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.prl.food2door.admin.DetallesRestauranteController">
+   <children>
+      <Label layoutX="27.0" layoutY="27.0" text="Nombre:" />
+      <Label layoutX="27.0" layoutY="62.0" text="Hora apertura:" />
+      <Label layoutX="27.0" layoutY="99.0" text="Hora cierre:" />
+      <Button fx:id="btnEscogerFoto" layoutX="224.0" layoutY="136.0" mnemonicParsing="false" onAction="#escogerFoto" text="Button" />
+      <ImageView fx:id="imagenRestCrear" fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
